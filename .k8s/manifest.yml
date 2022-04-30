@@ -33,7 +33,7 @@ metadata:
   name: fia
   namespace: fia
   annotations:
-#    cert-manager.io/cluster-issuer: letsencrypt-route53-dns
+    cert-manager.io/cluster-issuer: letsencrypt-http
     kubernetes.io/ingress.class: nginx
 spec:
   tls:
